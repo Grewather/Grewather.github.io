@@ -12,4 +12,4 @@ typewriter
   .typeString("Programmer!")
   .pauseFor(1000)
   .deleteAll()
-  .typeString("Webdeveloper!");
+  .typeString("web developer!");
