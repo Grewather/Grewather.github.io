@@ -29,7 +29,8 @@ body {
   background-color: var(--bluegray);
   padding: 60px;
   border-radius: 10px;
-  width: 450px;
+  max-width: 440px;
+  width: 100%;
 }
 .welcomeBox > h1 > span {
   color: var(--yellowGold);
@@ -74,4 +75,7 @@ body {
   margin: 10px;
   text-align: center;
   font-size: 30px;
+}
+.socialBox a {
+  color: white;
 }
