@@ -29,6 +29,7 @@ body {
   background-color: var(--bluegray);
   padding: 60px;
   border-radius: 10px;
+  width: 450px;
 }
 .welcomeBox > h1 > span {
   color: var(--yellowGold);
