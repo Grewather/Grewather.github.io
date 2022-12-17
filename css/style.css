@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --black: #121212;
+  --bluegray: #282a3a;
+  --gold: #735f32;
+  --yellowGold: #c69749;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  color: white;
+  flex-direction: column;
+}
+.welcomeBox {
+  margin-top: 20px;
+  background-color: var(--bluegray);
+  padding: 60px;
+  border-radius: 10px;
+}
+.welcomeBox > h1 > span {
+  height: 100vh;
+  color: var(--yellowGold);
+}
+.technologiesBox {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.technologiesBox i {
+  padding: 10px;
+}
+
+.projects {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.projectBox {
+  background-color: var(--bluegray);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.projectBox img {
+  border-radius: 10px;
+  margin: 10px;
+}
+.projectBox h4 {
+  font-size: 12px;
+}
+
+.projectBox a {
+  color: #626688;
+  text-decoration: none;
+}
+.socialBox {
+  background-color: var(--bluegray);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
