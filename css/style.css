@@ -31,7 +31,6 @@ body {
   border-radius: 10px;
 }
 .welcomeBox > h1 > span {
-  height: 100vh;
   color: var(--yellowGold);
 }
 .technologiesBox {
