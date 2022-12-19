@@ -1,5 +1,5 @@
 let typingNick = document.querySelector(".typingEffectNick");
-var typewriter = new Typewriter(typingNick, {
+let typewriter = new Typewriter(typingNick, {
   loop: true,
 });
 
